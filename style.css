@@ -49,6 +49,21 @@ nav a:hover {
 }
 
 main {
+  margin-top: 1rem;
   color: var(--lightGld);
   text-align: center;
+}
+
+#car {
+  height: 600px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+
+.article {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
 }
