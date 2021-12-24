@@ -6,14 +6,14 @@
 :root {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-  --lightGrn: rgb(218, 203, 154);
-  --pink: rgb(199, 133, 133);
-  background-color: rgb(48, 61, 40);
+  --lightGld: rgb(236, 212, 131);
+  --pink: rgb(226, 112, 112);
+  background-color: rgb(70, 119, 165);
 }
 
 .header {
   background-color: var(--pink);
-  color: var(--lightGrn);
+  color: var(--lightGld);
   text-align: center;
 }
 
@@ -36,19 +36,19 @@ nav a {
   margin: 0.5rem;
   padding: 0.5rem;
   text-decoration: none;
-  color: var(--lightGrn);
+  color: var(--lightGld);
   font-size: 20px;
-  border: 2px solid var(--lightGrn);
+  border: 2px solid var(--lightGld);
   border-radius: 5px;
 }
 
 nav a:hover {
   transition: ease-in-out 0.3s;
-  background-color: var(--lightGrn);
+  background-color: var(--lightGld);
   color: var(--pink);
 }
 
 main {
-  color: var(--lightGrn);
+  color: var(--lightGld);
   text-align: center;
 }
