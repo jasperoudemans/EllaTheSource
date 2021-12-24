@@ -8,6 +8,7 @@
   font-size: 16px;
   --lightGld: rgb(236, 212, 131);
   --pink: rgb(226, 112, 112);
+  --background: rgb(70, 119, 165);
   background-color: rgb(70, 119, 165);
 }
 
@@ -75,4 +76,48 @@ main {
   margin-left: 1rem;
   margin-right: 1rem;
   border-radius: 1rem;
+}
+
+.form-div {
+  display: flex;
+}
+
+form {
+  margin: 3rem;
+  font-size: 20px;
+}
+
+form input {
+  padding: 2px;
+  font-size: 20px;
+}
+
+.subBtn {
+  border: 2px solid var(--lightGld);
+  color: var(--lightGld);
+  background-color: var(--background);
+  border-radius: 5px;
+  padding: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.subBtn:hover {
+  transition: ease-in-out 0.3s;
+  background-color: var(--lightGld);
+  color: var(--background);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  color: var(--lightGld);
+  font-size: 20px;
+}
+
+.show img {
+  margin: 1rem;
+  height: 1000px;
 }
