@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  --lightGrn: rgb(218, 203, 154);
+  --pink: rgb(199, 133, 133);
+  background-color: rgb(48, 61, 40);
+}
+
+.header {
+  background-color: var(--pink);
+  color: var(--lightGrn);
+  text-align: center;
+}
+
+#couch {
+  margin: 0.5rem;
+}
+
+#couch {
+  height: 300px;
+  clip-path: ellipse();
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  width: 208px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--lightGrn);
+  font-size: 20px;
+  border: 2px solid var(--lightGrn);
+  border-radius: 5px;
+}
+
+nav a:hover {
+  transition: ease-in-out 0.3s;
+  background-color: var(--lightGrn);
+  color: var(--pink);
+}
+
+main {
+  color: var(--lightGrn);
+  text-align: center;
+}
