@@ -29,6 +29,7 @@
 nav {
   display: flex;
   justify-content: space-evenly;
+  margin: 1rem;
 }
 
 nav a {
@@ -66,4 +67,12 @@ main {
   display: flex;
   align-items: center;
   text-align: left;
+  font-size: 20px;
+}
+
+#looking {
+  height: 600px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
 }
