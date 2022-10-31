@@ -6,10 +6,14 @@
 :root {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
-  --lightGld: rgb(236, 212, 131);
-  --pink: rgb(226, 112, 112);
-  --background: rgb(77, 143, 197);
+  --lightGld: rgb(51, 47, 44);
+  --pink: rgb(205, 190, 112);
+  --background: rgb(137, 155, 169);
   background-color: var(--background);
+}
+
+#nameRes {
+  margin: 1rem;
 }
 
 .header {
@@ -53,6 +57,46 @@ nav a:hover {
   color: var(--pink);
 }
 
+.navBtn {
+  width: 208px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--lightGld);
+  font-size: 20px;
+  border: 2px solid var(--lightGld);
+  border-radius: 5px;
+}
+
+.navBtn:hover {
+  transition: ease-in-out 0.3s;
+  background-color: var(--lightGld);
+  color: var(--pink);
+}
+
+.nextBtn {
+  width: 208px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--lightGld);
+  font-size: 20px;
+  border: 2px solid var(--lightGld);
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+
+.nextBtn:hover {
+  transition: ease-in-out 0.3s;
+  background-color: var(--lightGld);
+  color: var(--pink);
+}
+
+#buttonBox {
+  margin-top: 1.5rem;
+}
+
 main {
   margin-top: 1rem;
   color: var(--lightGld);
@@ -81,7 +125,7 @@ main {
 }
 
 .article p {
-  max-width: 23rem;
+  max-width: 40rem;
 }
 
 .miracle {

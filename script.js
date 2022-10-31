@@ -1,4 +1,8 @@
 const form = document.getElementById("form");
+const header = document.getElementById("header");
+const textToHide = document.getElementById("h2Hide");
+const otherToHide = document.getElementById("h3Hide");
+const formToHide = document.getElementById("formHide");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 });
@@ -15,6 +19,10 @@ blessingBtn.addEventListener("click", function () {
   console.log(blessDiv.className);
   if (blessDiv.className === "hide") {
     blessDiv.setAttribute("class", "show");
+    header.classList.add("hide");
+    textToHide.classList.add("hide");
+    otherToHide.classList.add("hide");
+    formToHide.classList.add("hide");
   } else {
     return;
   }
