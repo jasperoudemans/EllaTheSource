@@ -182,4 +182,6 @@ form input {
 
 #magic {
   border-radius: 1rem;
+  /* max-width: 99%; */
+  max-height: 100vh; 
 }
