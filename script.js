@@ -13,7 +13,7 @@ blessingBtn.addEventListener("click", function () {
   const namePlace = document.getElementById("nameRes");
   namePlace.textContent =
     name +
-    ", Ella is sending her pure and Divine Love to you through her gaze in the photograph below. Bask in the feeling of complete Love and understanding, for Ella understands the truest nature of every being as Love. Look into Her eyes for as long as you wish, then go about your day feeling blessed";
+    ", I am sending my pure Love to you through my gaze in the photograph below. Look into my eyes and bask in the feeling of complete Love and understanding, for I understands your truest nature as Love. Remain in my gaze for as long as you wish, then go about your day feeling blessed";
   const blessDiv = document.getElementById("blessing");
   console.log(blessDiv);
   console.log(blessDiv.className);
